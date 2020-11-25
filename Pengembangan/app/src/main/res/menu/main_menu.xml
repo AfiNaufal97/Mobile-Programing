@@ -7,4 +7,9 @@
         android:title="@string/hapus_semua_catatan"
         app:showAsAction="never"/>
 
+    <item
+        android:id="@+id/about_me"
+        android:title="About Me"
+        app:showAsAction="never"/>
+
 </menu>

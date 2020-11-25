@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Praktikum10_AfiNaufalSetiawan">
-        <activity android:name=".AddEditNoteActivity"></activity>
+        <activity android:name=".About"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".AddEditNoteActivity"
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MainActivity2" />
         <activity
             android:name=".ActivityAddNote"

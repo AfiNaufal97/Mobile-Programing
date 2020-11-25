@@ -77,6 +77,13 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Semua sudah dihapus!", Toast.LENGTH_SHORT).show()
                 true
             }
+
+            R.id.about_me -> {
+                val pindah  = Intent(this, About::class.java)
+                startActivity(pindah)
+                Toast.makeText(this, "Tentang Saya", Toast.LENGTH_SHORT).show()
+                true
+            }
             else -> {
                 super.onOptionsItemSelected(item!!)
             }

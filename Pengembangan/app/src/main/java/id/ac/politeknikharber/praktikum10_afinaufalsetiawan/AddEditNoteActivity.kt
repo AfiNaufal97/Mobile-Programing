@@ -22,6 +22,7 @@ class AddEditNoteActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_note)
 
+
         number_picker_priority.minValue = 1
         number_picker_priority.maxValue = 5
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_close_24)
@@ -33,6 +34,9 @@ class AddEditNoteActivity : AppCompatActivity() {
         } else {
             title = "Tambah Catatan"
         }
+
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
